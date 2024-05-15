@@ -1,0 +1,9 @@
+@RateLimitingApi_HostAddress = http://localhost:7297
+
+GET {{RateLimitingApi_HostAddress}}/GetAll/
+Accept: application/json
+
+###
+
+GET {{RateLimitingApi_HostAddress}}/Get/
+Accept: application/json
